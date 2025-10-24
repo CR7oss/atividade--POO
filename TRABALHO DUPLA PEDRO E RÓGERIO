@@ -36,6 +36,9 @@ print(f'A) Soma dos valores pares: {soma_pares}')
 print(f'B) Soma da terceira coluna: {soma_coluna3}')
 print(f'C) Maior valor da segunda linha: {maior_linha2}')
 
+O código do Rogério está correto e bem estruturado. A leitura e exibição da matriz estão claras e funcionam conforme o solicitado.
+Sugestão: poderia usar max(matriz[1]) para simplificar a busca do maior valor da segunda linha, e usar sum(matriz[i][2] for i in range(3)) para simplificar a soma da terceira coluna.
+
 CÓDIGO ROGÉRIO
 
 # Criar a matriz 3x3
@@ -80,3 +83,5 @@ print(f'A) Soma dos pares: {soma_pares}')
 print(f'B) Soma da 3ª coluna: {soma_coluna3}')
 print(f'C) Maior valor da 2ª linha: {maior_linha2}')
 
+O código do Pedro está correto e cumpre todos os requisitos da atividade.
+Sugestão: simplificar algumas partes do código para deixá-lo mais direto, como usar sum() para somar a terceira coluna e max() para o maior valor da segunda linha.
